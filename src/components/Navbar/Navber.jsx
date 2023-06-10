@@ -14,7 +14,7 @@ const Navber = () => {
 
   return (
     <div>
-      <nav className="bg-text-purple">
+      <nav className="bg-text-purple px-2">
         <div onClick={() => setOpen(!open)} className="md:hidden">
           <span>
             {open === true ? (
